@@ -275,9 +275,9 @@ header {
 
 #third-section .third-section-main-image {
     position: absolute;
-    max-width: 100%;
+    max-width: 40%;
     align-self: flex-end;
-    top: -175px;
+    top: -8%;
     z-index: -1;
 }
 
