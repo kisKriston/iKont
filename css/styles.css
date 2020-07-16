@@ -348,29 +348,6 @@ header {
     width: 65%;
 }
 
-.modules-image-container-empty {
-	min-width: 130px;
-	min-height: 130px;
-	max-width: 130px;
-	max-height: 130px;
-	margin-right: 20px;
-	position: static;
-    display: flex;
-    background-color: #f3f3f3;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.modules-image-container-empty img {
-    width: 100%;
-}
-
-.modules-text-container {
-	
-}
-
 .content-8 {top: 3%; left: 18%;}
 .content-6 {top: 15%; left: 27%;}
 .content-4 {top: 27%; left: 33%;}
