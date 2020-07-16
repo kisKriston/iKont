@@ -348,6 +348,11 @@ header {
     width: 65%;
 }
 
+.modules-text-container-empty h5 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .content-8 {top: 3%; left: 18%;}
 .content-6 {top: 15%; left: 27%;}
 .content-4 {top: 27%; left: 33%;}
