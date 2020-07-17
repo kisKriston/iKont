@@ -32,6 +32,8 @@ html {
     font-family: "Segoe", sans-serif;
     font-size: 18px;
     color: #181818;
+	max-width: 1920px;
+    margin: 0 auto;
 }
 
 /**********************************
@@ -48,6 +50,7 @@ header {
     padding: 60px 0 0 0;
     position: fixed;
     width: 100%;
+	max-width: 1920px;
     background-color: #fff;
     box-shadow: 0px 10px 50px 50px rgba(255,255,255,1);
     transition: all 0.3s ease;
@@ -404,7 +407,7 @@ header {
     justify-content: center;
     align-items: center;
     background-image: url("../images/05_kapcsolat.png");
-    background-position: bottom -150px right 0px;
+    background-position: bottom -33% right 0px;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -603,6 +606,7 @@ input[type=submit]:hover {
     .line-5 {width: 30%; transform: rotate(57deg);}
     .line-3 {width: 27%; transform: rotate(35deg);}
     .line-1 {width: 26%; transform: rotate(11deg);}
+	#fourth-section {background-position: bottom -27% right 0px;}
 }
 
 @media screen and (max-width: 1600px) {
@@ -615,6 +619,7 @@ input[type=submit]:hover {
     .line-5 {width: 32%; transform: rotate(59deg);}
     .line-3 {width: 29%; transform: rotate(36deg);}
     .line-1 {width: 28%; transform: rotate(12deg);}
+	#fourth-section {background-position: bottom -20% right 0px;}
 }
 
 @media screen and (max-width: 1500px) {
@@ -629,6 +634,7 @@ input[type=submit]:hover {
     .line-5 {width: 35%; transform: rotate(60deg);}
     .line-3 {width: 30%; transform: rotate(38deg);}
     .line-1 {width: 28%; transform: rotate(13deg);}
+	#fourth-section {background-position: bottom -16% right 0px;}
 }
 
 @media screen and (max-width: 1400px) {
@@ -640,6 +646,7 @@ input[type=submit]:hover {
     .line-5 {width: 37%; transform: rotate(61deg);}
     .line-3 {width: 32%; transform: rotate(40deg);}
     .line-1 {width: 29%; transform: rotate(14deg);}
+	#fourth-section {background-position: bottom -12% right 0px;}
 }
 
 @media screen and (max-width: 1300px) {
@@ -664,6 +671,7 @@ input[type=submit]:hover {
     .line-5 {width: 43%; transform: rotate(65deg);}
     .line-3 {width: 35%; transform: rotate(44deg);}
     .line-1 {width: 30%; transform: rotate(16deg);}
+	#fourth-section {background-position: bottom -5% right 0px;}
 }
 
 @media screen and (max-width: 1050px) {
@@ -675,6 +683,7 @@ input[type=submit]:hover {
     .line-5 {width: 47%; transform: rotate(66deg);}
     .line-3 {width: 37%; transform: rotate(46deg);}
     .line-1 {width: 31%; transform: rotate(17deg);}
+	#fourth-section {background-position: bottom;}
 }
 
 @media screen and (max-width: 1000px) {
