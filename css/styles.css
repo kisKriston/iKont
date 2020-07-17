@@ -511,22 +511,38 @@ input[type=submit]:hover {
     height: 50px;
 }
 
-.footer {
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px 0;
+}
+
+.hiventures, .szechenyi {
+    width: 230px;
+    display: flex;
+}
+
+.footer {
+    align-self: flex-start;
 }
 
 .footer h5{
     font-size: 1.2rem;
     font-weight: bold;
     margin: 0;
-    padding-bottom: 10px;
+    padding: 10px 0;
     text-align: center;
 }
 
 .footer .footer-text {
     text-align: center;
+    padding: 0 20px;
+}
+
+.footer .footer-text span {
+    line-height: 1.6rem;
 }
 
 .footer .footer-text span.fuggoleges-vonal {
