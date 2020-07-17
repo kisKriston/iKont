@@ -517,15 +517,26 @@ input[type=submit]:hover {
     align-items: center;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
+    height: 160px;
 }
 
 .hiventures, .szechenyi {
-    width: 230px;
+    min-width: 230px;
+    max-width: 230px;
     display: flex;
 }
 
-.footer {
-    align-self: flex-start;
+.szechenyi {
+    min-height: 160px;
+    max-height: 160px;
+}
+
+.footer-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
 }
 
 .footer h5{
@@ -557,6 +568,20 @@ input[type=submit]:hover {
 
 .footer .footer-text span a:hover {
     color: #217528;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin: 10px 0;
+}
+
+.footer-bottom span {
+    font-size: 0.9rem;
+    padding: 0 20px;
+}
+
+.footer-bottom span a {
+    color: #227525;
     text-decoration: underline;
 }
 
