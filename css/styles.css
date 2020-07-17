@@ -404,7 +404,7 @@ header {
     justify-content: center;
     align-items: center;
     background-image: url("../images/05_kapcsolat.png");
-    background-position: bottom;
+    background-position: bottom -150px right 0px;
     background-repeat: no-repeat;
     background-size: contain;
 }
