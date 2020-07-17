@@ -193,6 +193,7 @@ header {
     margin: 0 auto 20px;
     padding: 0;
     line-height: 30px;
+    text-align: justify;
 }
 
 #aboutus p:first-of-type {
